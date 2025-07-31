@@ -1,3 +1,15 @@
+# linux
+
+"DrssionPageMCP": {
+
+​      "type": "stdio",
+
+​      "command": "/home/user/Desktop/DrssionPageMCP/run_mcp.sh"
+
+​    }
+
+
+
 # DrissionPage MCP Server -- 骚神出品
 
 基于DrissionPage和FastMCP的浏览器自动化MCP服务器，提供丰富的浏览器操作API供AI调用。

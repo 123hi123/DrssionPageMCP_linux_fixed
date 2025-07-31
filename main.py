@@ -149,7 +149,7 @@ class DrissionPageMCP():
         result = {"locator": locator, "element": str(element), "click_result": element.click()}
         return result
     
-    def click_by_containing_text(self, content: str, index: int = None) -> any:
+    def click_by_containing_text(self, content: str, index: int = None) -> Any:
         """
         根据包含指定文本的方式点击网页元素。
         
@@ -250,7 +250,7 @@ class DrissionPageMCP():
         """
         result=self.browser.latest_tab.run_cdp(cmd, **cmd_args)
         return result
-    def listen_cdp_event(self,event_name: str) -> any:
+    def listen_cdp_event(self,event_name: str) -> str:
         """设置监听CDP事件
         
          应该先运行cdp  命令 激活对应的域，比如  Network.enable
@@ -309,7 +309,7 @@ class DrissionPageMCP():
             "video/ogg"
         ],
         url_include: str = "."        
-    ) -> any:
+    ) -> str:
         '''
         开启一个新的标签页，设置监听，访问tab_url,
         tab_url: 被监听的标签页的url
