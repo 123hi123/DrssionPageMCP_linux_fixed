@@ -1,16 +1,29 @@
-# linux
-
-"DrssionPageMCP": {
-
-​      "type": "stdio",
-
-​      "command": "/home/user/Desktop/DrssionPageMCP/run_mcp.sh"
-
-​    }
-
-
-
 # DrissionPage MCP Server -- 骚神出品
+
+## 快速開始
+
+### 1. 安裝 uv 包管理器
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### 2. 克隆此專案
+```bash
+git clone https://github.com/yourusername/DrssionPageMCP.git
+cd DrssionPageMCP
+```
+
+### 3. 配置到 Claude Desktop
+在 Claude Desktop 設置中添加以下配置：
+
+```json
+"DrssionPageMCP": {
+  "type": "stdio",
+  "command": "/path/to/DrssionPageMCP/run_mcp.sh"
+}
+```
+
+注意：請將路徑替換為你的實際專案路徑。
 
 基于DrissionPage和FastMCP的浏览器自动化MCP服务器，提供丰富的浏览器操作API供AI调用。
 
